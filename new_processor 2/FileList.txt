@@ -1,0 +1,16 @@
+decoder_32.v
+decoder_32_tb.v
+dffe_ref.v
+left_shift_eight.v
+left_shift_four.v
+left_shift_one.v
+left_shift_sixteen.v
+left_shift_two.v
+logical_left_shift.v
+mux_2.v
+my_tri.v
+my_tri_tb.v
+regfile.v
+regfile_tb.v
+register.v
+right_shift_one.v

@@ -1,0 +1,31 @@
+$date
+	Thu Sep 10 15:07:19 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module my_tri_tb $end
+$var wire 32 ! out [31:0] $end
+$var wire 1 " oe $end
+$var wire 32 # in [31:0] $end
+$var integer 32 $ i [31:0] $end
+$scope module adder $end
+$var wire 32 % in [31:0] $end
+$var wire 1 " oe $end
+$var wire 32 & out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 &
+b110 %
+b110 $
+b110 #
+1"
+b110 !
+$end
+#200

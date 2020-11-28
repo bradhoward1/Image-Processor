@@ -1,0 +1,21 @@
+Code idea for Final Project:
+
+- Data for an image is already stored in RAM, so our job is to extract the pixel values, perform some alrgorithm on them, and store the values back into RAM
+
+- lw starting at the first address for the image
+- perform some function on each value (Im not sure what the value type is, so need to examine that to further understan what we will be doing)
+- store the new value within a register in case it needs to be used later
+- sw the new value into (ensuring that it is stored in the same address that it was extracted from)
+	- this is to ensure that when the FPGA attempts to read in the values to send to the VGA screen, they are the in the same location
+
+- Im pretty sure that the FPGA will send both locations and colors, so our job will only be to change the colors shown on the VGA screen through algorithms within our processor
+
+
+
+ESSENTIAL COMMANDS TO WORK 100% CORRECTLY ON PROCESSOR:
+1. lw
+2. sw
+3. all arithmetic operations, even multdiv
+4. bne to create for loops
+
+Aidan will work on interfacing the camera with the Arduino 
